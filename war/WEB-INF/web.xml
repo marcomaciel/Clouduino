@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>ClouduinoServlet</servlet-name>
+		<servlet-class>br.com.mmaciel.clouduino.servlet.ClouduinoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ClouduinoServlet</servlet-name>
+		<url-pattern>/ClouduinoServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GravaDadosServlet</servlet-name>
+		<servlet-class>br.com.mmaciel.clouduino.servlet.GravaDadosServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GravaDadosServlet</servlet-name>
+		<url-pattern>/GravaDadosServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ObtemDadosServlet</servlet-name>
+		<servlet-class>br.com.mmaciel.clouduino.servlet.ObtemDadosServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ObtemDadosServlet</servlet-name>
+		<url-pattern>/ObtemDadosServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

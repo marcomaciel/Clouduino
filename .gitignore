@@ -1,0 +1,10 @@
+.DS_Store
+.settings
+.metadata
+.classpath
+.metadata
+.project
+target
+bin
+*.class
+*.jar

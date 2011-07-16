@@ -1,10 +1,7 @@
 .DS_Store
-.settings
-.metadata
-.classpath
-.metadata
-.project
 target
 bin
+build
+dist
 *.class
 *.jar

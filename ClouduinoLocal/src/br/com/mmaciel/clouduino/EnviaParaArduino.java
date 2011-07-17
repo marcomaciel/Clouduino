@@ -74,6 +74,7 @@ public class EnviaParaArduino {
 
         System.out.println("Enviando comando para o Arduino...");
         outputStream.write(bytes);
+        System.out.println("Enviado para o Arduino...");
 
     }
 }

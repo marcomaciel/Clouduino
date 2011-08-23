@@ -21,6 +21,7 @@ public class EnviaParaArduino {
     // Essa eh a porta serial no mac osx. Mude para o nome correto
     // se for usar Linux ou Windows. 
     static String defaultPort = "/dev/tty.usbserial-A600bWE7";
+    //static String defaultPort = "COM16" //Windows;
 
     public static void delay(long milis) {
         try {

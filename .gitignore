@@ -1,4 +1,6 @@
 .DS_Store
+.metadata
+.classpath
 target
 bin
 build
